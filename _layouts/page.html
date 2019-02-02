@@ -16,6 +16,11 @@ layout: default
       <li> {{preference.like}} </li>
       {% endfor %}
     </ul>
+    <ul>
+      {% for like in site.data.likes %}
+      <li> {{like.like}} </li>
+      {% endfor %}
+    </ul>
   </div>
 </article>
 This is a {{page.yo}}.
